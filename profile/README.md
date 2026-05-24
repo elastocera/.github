@@ -15,7 +15,7 @@ RVTools Migration Analyzer. Converts RVTools inventory exports into complete mig
 Web-based inventory and operational visibility tool for OpenShift Virtualization. Built for teams migrating from VMware that need centralized visibility into VMs, nodes, and cluster health while preserving OpenShift-native RBAC, namespaces, and multi-tenancy boundaries.
 
 **[safeshift-doc-gen](https://github.com/orgs/elastocera/packages/container/package/safeshift-doc-gen)**  
-Generates AsciiDoc and PDF documentation for OpenShift clusters from live environments or must-gather archives. Exposes web UI, CLI, and API, and includes an RHACM batch mode to document all managed clusters in one run.
+Audit-grade AsciiDoc/PDF documentation generator for OpenShift (OCP), Kubernetes, and RHACM-managed fleets. Live cluster or must-gather. Web UI, CLI, REST API, and batch mode for documenting every managed cluster in one run.
 
 **[ai-health-check-tool](https://github.com/orgs/elastocera/packages/container/package/ai-health-check-tool)**  
 AI-powered diagnostic tool for OpenShift, Kubernetes, ODF/Ceph, and Linux infrastructure. Reduces full health-check analysis from hours to minutes by collecting operational data, scoring it by category, and surfacing correlated issues across components. Outputs PDF reports, supports Gemini, Claude, Grok, OpenAI, and local Ollama, with automatic anonymization of sensitive data and a PatternFly 6 web interface.
