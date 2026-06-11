@@ -26,7 +26,7 @@ AI-powered diagnostic tool for OpenShift, Kubernetes, ODF/Ceph, and Linux infras
 
 ## Releases
 
-Binaries for the tools are concentrated in one public repo: [elastocera/releases](https://github.com/elastocera/releases). Each release carries its tool prefix (`ssdg-v*`, `rvtma-v*`, `ovtools-v*`) and ships builds for macOS (arm64/amd64), Linux (arm64/amd64), and Windows. Container images are published to GHCR; the safeshift-doc-gen image also mirrors to `quay.io/elastocera/ssdg` for networks that block ghcr.io.
+Binaries for the tools are concentrated in one public repo: [elastocera/releases](https://github.com/elastocera/releases). Each release carries its tool prefix (`ssdg-v*`, `rvtma-v*`, `ovtools-v*`) and ships builds for macOS (arm64/amd64), Linux (arm64/amd64), and Windows.
 
 ## Research and Writing
 
