@@ -24,6 +24,10 @@ Audit-grade AsciiDoc/PDF documentation generator for OpenShift (OCP), Kubernetes
 AI-powered diagnostic tool for OpenShift, Kubernetes, ODF/Ceph, and Linux infrastructure. Reduces full health-check analysis from hours to minutes by collecting operational data, scoring it by category, and surfacing correlated issues across components. Outputs PDF reports, supports Gemini, Claude, Grok, OpenAI, and local Ollama, with automatic anonymization of sensitive data and a PatternFly 6 web interface.
 [#ai-health-check-tool](https://redhat.enterprise.slack.com/archives/C092DAVQ2KC)
 
+## Releases
+
+Binaries for the tools are concentrated in one public repo: [elastocera/releases](https://github.com/elastocera/releases). Each release carries its tool prefix (`ssdg-v*`, `rvtma-v*`, `ovtools-v*`) and ships builds for macOS (arm64/amd64), Linux (arm64/amd64), and Windows. Container images are published to GHCR; the safeshift-doc-gen image also mirrors to `quay.io/elastocera/ssdg` for networks that block ghcr.io.
+
 ## Research and Writing
 
 Technical deep dives, post-mortems, and architecture analysis at [elastocera.com](https://elastocera.com).
