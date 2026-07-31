@@ -6,6 +6,10 @@ These are systems engineered during platform engineering and consulting work to 
 
 > Hosting: this repository lives on elastocera (private GitHub org) as an interim arrangement. See [GOVERNANCE.md](GOVERNANCE.md) for details.
 
+## Releases
+
+Binaries for the tools are concentrated in one public repo: [elastocera/releases](https://github.com/elastocera/releases). Each release carries its tool prefix (`ssdg-v*`, `rvtma-v*`, `ovtools-v*`) and ships builds for macOS (arm64/amd64), Linux (arm64/amd64), and Windows.
+
 ## Projects
 
 **[rvtma](https://github.com/orgs/elastocera/packages/container/package/rvtma)**  
@@ -23,10 +27,6 @@ Audit-grade AsciiDoc/PDF documentation generator for OpenShift (OCP), Kubernetes
 **[ai-health-check-tool](https://github.com/orgs/elastocera/packages/container/package/ai-health-check-tool)**  
 AI-powered diagnostic tool for OpenShift, Kubernetes, ODF/Ceph, and Linux infrastructure. Reduces full health-check analysis from hours to minutes by collecting operational data, scoring it by category, and surfacing correlated issues across components. Outputs PDF reports, supports Gemini, Claude, Grok, OpenAI, and local Ollama, with automatic anonymization of sensitive data and a PatternFly 6 web interface.
 [#ai-health-check-tool](https://redhat.enterprise.slack.com/archives/C092DAVQ2KC)
-
-## Releases
-
-Binaries for the tools are concentrated in one public repo: [elastocera/releases](https://github.com/elastocera/releases). Each release carries its tool prefix (`ssdg-v*`, `rvtma-v*`, `ovtools-v*`) and ships builds for macOS (arm64/amd64), Linux (arm64/amd64), and Windows.
 
 ## Research and Writing
 
