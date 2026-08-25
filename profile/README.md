@@ -12,7 +12,7 @@ Binaries for the tools are concentrated in one public repo: [elastocera/releases
 
 ## Projects
 
-**[rvtma](https://github.com/orgs/elastocera/packages/container/package/rvtma)**  
+**[rvtma](https://github.com/linuxelitebr/rvtma-release)**  
 RVTools Migration Analyzer. Converts RVTools inventory exports into complete migration blueprints for moves from VMware vSphere to OpenShift Virtualization or any KubeVirt-based target. Supports pre-sales scoping, VMA, cluster sizing, and wave planning. Generates PDF, XLSX, and YAML reports tailored to the technical, operational, and executive stakeholders involved at each phase.
 [#rvtools-migration-analyzer](https://redhat.enterprise.slack.com/archives/C094CNJRXQD)
 
