@@ -29,7 +29,7 @@ Audit-grade AsciiDoc/PDF documentation generator for OpenShift (OCP), Kubernetes
 AI-powered diagnostic tool for OpenShift, Kubernetes, ODF/Ceph, and Linux infrastructure. Reduces full health-check analysis from hours to minutes by collecting operational data, scoring it by category, and surfacing correlated issues across components. Outputs PDF reports, supports Gemini, Claude, Grok, OpenAI, and local Ollama, with automatic anonymization of sensitive data and a PatternFly 6 web interface.
 [#ai-health-check-tool](https://redhat.enterprise.slack.com/archives/C092DAVQ2KC)
 
-**[usb-ip-kubevirt](https://github.com/linuxelitebr/usb-ip-kubevirt)**  
+**[usb-ip-kubevirt](https://github.com/linuxelitebr/usb-ip-kubevirt-release)**  
 Live-migrate a VM that needs a USB device. A license dongle (a hardlock, as we call it in Brazil), a Bluetooth adapter, hardware key, whatever: the device stays plugged into one node of an OpenShift Virtualization cluster, and the VM that uses it runs, and moves, anywhere, even on another cluster. The VM still sees a local USB device; it just gets it over TCP.
 [#usb-ip-kubevirt](https://redhat.enterprise.slack.com/archives/C092DAVQ2KC)
 
